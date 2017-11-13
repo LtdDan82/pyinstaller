@@ -14,7 +14,5 @@ Fixes issue #2978 with pandas version 0.21
 """
 
 
-hiddenimports = [
-    'timedeltas'
-]
+hiddenimports = ['pandas._libs.tslibs.timedeltas']
 
